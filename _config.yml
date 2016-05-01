@@ -1,0 +1,97 @@
+# Site settings
+title: 渊兮
+SEOTitle: 渊兮的博客
+header-img: img/home-bg.jpg
+email: 11735410@qq.com
+description: "关于互联网与产品、产品设计 | 这里是 @渊兮 的个人博客，一个互联网产品爱好者写东西的地方。"
+keyword: "渊兮，Uanxi, @渊兮 , Uanxi BLog, zhihu渊兮 ，渊兮的博客，产品，产品经理，互联网产品，设计 ，UI ，UX Design，IxD"
+url: "http://uanxi.com"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     angrypm
+zhihu_username:     yangyuanxi
+#github_username:    pmsay
+#twitter_username:  huxpro
+#facebook_username:  huxpro
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: yuanxi
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: d6b4e649eb637f7fb4bc4be9224f9f41
+# Google Analytics
+ga_track_id:             # Format: UA-xxxxxx-xx
+ga_domain: 
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "做人就要像做产品，要有讲究和套路，更重要的是走心。"
+sidebar-avatar: /img/head-pic.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    },{
+        title: "liod",
+        href: "#"
+    },{
+        title: "pmsay",
+        href: "#"
+    },{
+        title: "dandy",
+        href: "#"
+    }
+]

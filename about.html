@@ -1,0 +1,158 @@
+---
+layout: page
+title: "About"
+description: "做人就要像做产品，要有讲究和套路，更重要的是走心"
+header-img: "img/about-bg.jpg"
+---
+
+<!-- Language Selector -->
+<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英语 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+<h2>关于我</h2>
+<blockquote>
+<p>“我是谁？”</p>
+<p>“一个互联网产品爱好者而已。”</p>
+</blockquote>
+<p>我叫渊兮（笔名），你可以在知乎，在微博找到我。</p>
+<h2>关于这个博客</h2>
+<h3>这个博客是做什么的？</h3>
+<p>正如博客首页的描述，这里只是一个互联网产品爱好者写东西的地方。写些什么？我想大多是关于：</p>
+<p>“讲究”、“套路”和“走心”。</p>
+<p><strong>“讲究” —— 要有态度！</strong> </p>
+<blockquote>
+<p>做人一定要有讲究，否则和咸鱼有什么区别？</p>
+</blockquote>
+<p>关于“讲究”这一词，在我的这里是“态度”的意思。一个有讲究的人，往往对生活，对理想，对周围的人和事有态度。</p>
+<p>有态度就是认真，对人认真，对事认真。我们每天在玩儿很多APP和游戏，但是有没有认真在玩？我们在交朋友，你来我往，到底有没有认真在交朋友？</p>
+<p>有态度也是有情怀，有情怀的人会是一个有意思的人，有情怀的产品也会是有意思的产品。情怀不能当饭吃，但是情怀可以吃好饭。</p>
+<p><strong>“套路” —— 要有方法论</strong></p>
+<blockquote>
+<p>自古深情留不住，总是套路得人心。</p>
+</blockquote>
+<p>这里借用网络上正在流行的话语，道理暂且不谈，但是它却揭示了一个人懂得套路的重要性。</p>
+<p>大多数人与人之间的智商都是差不多的，但是那些很厉害的人之所以厉害，往往是有着自己做人做事的方法论，他们不仅经历了很多，而且善于总结，在经过思考后，构建了自己的思维及知识体系，总结内心世界的方法论。</p>
+<p>一句话概括“套路”：去经历，去思考，去总结。</p>
+<p><strong>“走心” —— 知情，读心</strong></p>
+<blockquote>
+<p>好的产品关注功能，优秀的产品关注情感。</p>
+</blockquote>
+<p>“态度”决定了会不会做，“套路”决定了能不能做成，而“走心”才代表做的对不对？能不能被接受？</p>
+<p>走心不光要走自己的心，也要走别人的心。任何事，只有走了自己的心，自己思考了，才能让自己的话语、行为、产品走别人的心，走用户的心。</p>
+<p>走心的人能理解他人，走心的产品同样能理解用户；走心的人能让别人感觉舒适，走心的产品同样能带来极好的用户体验。</p>
+<p>所以，做一个走心的人，做走心的事。</p>
+<h3>为什么要写博客？</h3>
+<p>生活与工作我们主动和被动的充斥着大量的信息，有知识、有好奇、有发现、有情感，但是大量的信息如行云流水穿脑而过，真的能沉淀下来的所剩无几。</p>
+<p>我决定写写自己的感兴趣的东西，沉淀一下有价值的东西，并整理一下自己的思维、知识和方法，适当抒发下态度和见解。</p>
+<blockquote>
+<p>世界那么大，既然不能都去看看，那么就认真看看互联网，看看这个无处不在的世界。</p>
+</blockquote>
+<h2>鸣谢</h2>
+<p>出于github的强大的版本控制功能，而且毕竟自己也是敲过代码的，所以自己折腾了这么一个博客。</p>
+<p>“河水不忘挖井人”，特此像github的开发及运营人员致敬，向jekyll的开发人员和提供theme的Hux表示感谢。</p>
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <blockquote>
+        Less is more.
+    </blockquote>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <p>
+    If you want to live your life in a creative way, as an artist, you have to not look back too much. You have to be willing to take whatever you’ve done and whoever you were and throw them away.
+    </p>
+
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index){
+        if(index == 0){
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }else{
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(0);
+</script>
+
+
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+    <div class="ds-thread"
+    {% if site.duoshuo_username == "huxblog" %}
+        data-thread-id="1187623191091085319"
+    {% else %}
+        data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/"></div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- Duoshuo hacking -->
+<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = document.getElementById('dsUser').value;
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
