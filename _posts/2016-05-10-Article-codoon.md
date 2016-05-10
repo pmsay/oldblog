@@ -7,6 +7,7 @@ author:     "渊兮"
 header-img: "img/tag-bg.jpg"
 tags:
     - 商业模式
+    - 产品思维
 ---
 
 ## 前言 ##
