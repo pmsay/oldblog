@@ -6,8 +6,8 @@ date:       2016-06-21
 author:     "渊兮"
 header-img: "img/tag-bg.jpg"
 tags:
-    - 产品体验
-    - 产品思维 
+    - 原创
+    - 产品思维
 ---
 
 
