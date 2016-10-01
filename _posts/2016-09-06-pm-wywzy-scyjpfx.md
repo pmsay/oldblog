@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "网易产品经理微专业－市场与竞品分析"
-subtitle:   "课程笔记:用户、竞争对手、市场的了解以及如何更好地对自身产品进行定位"
+subtitle:   "课程笔记:用户、竞争对手、市场，如何对自身产品进行定位"
 date:       2016-09-06
 author:     "渊兮"
 header-img: "img/tag-bg.jpg"
