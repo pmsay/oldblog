@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: 11735410@qq.com
 description: "关于互联网与产品、产品设计 | 这里是 @渊兮 的个人博客，一个互联网产品爱好者写东西的地方。"
 keyword: "渊兮，Uanxi, @渊兮 , Uanxi BLog, zhihu渊兮 ，渊兮的博客，产品，产品经理，互联网产品，设计 ，UI ，UX Design，IxD"
-url: "http://uanxi.com"              # your host, for absolute URL
+url: ""              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
