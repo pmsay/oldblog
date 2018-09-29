@@ -5,7 +5,8 @@ subtitle:   "个人对于互联网产品体验的方法论"
 date:       2016-06-21
 author:     "渊兮"
 header-img: "img/tag-bg.jpg"
-tags:
+cateloge:	true
+tags: 
     - 原创
     - 产品体验
 ---
